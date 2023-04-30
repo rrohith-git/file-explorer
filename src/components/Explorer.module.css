@@ -1,0 +1,70 @@
+.folder {
+    /* background-color: lightgrey; */
+    display: flex;
+    width: 20rem;
+    height: 1.9rem;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+}
+
+.folder span,
+.file span {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.folder__highlight {
+    border: 1px solid #333;
+    background-color: hsla(0, 4%, 65%, 0.2);
+    padding-left: 0.5rem;
+    font-weight: 500;
+    width: 20rem;
+}
+
+.file__highlight {
+    border: 1px solid #333;
+    background-color: hsla(0, 4%, 65%, 0.2);
+    padding-left: 0.5rem;
+    font-weight: 500;
+    width: 20rem;
+}
+
+.file {
+    display: 'flex';
+    flex-direction: 'column';
+    padding-left: 0.5rem;
+}
+
+.file_hide {
+    display: none;
+}
+
+.actionButtons {
+    display: flex;
+    margin-right: 0.5rem;
+    gap: 0.2rem;
+}
+
+.actionButtons>button {
+    cursor: pointer;
+}
+
+.textInput {
+    display: flex;
+    /* background-color: aqua;s */
+    margin-left: 0.5rem;
+    gap: 0.5rem;
+    padding-left: 0.5rem;
+    width: 20rem;
+    height: 1.8rem;
+    align-items: center;
+}
+
+.textInput>input {
+    border: 2px solid #333;
+}
